@@ -1,0 +1,13 @@
+Step Function
+    ↓
+STARTJOB Lambda
+    ↓
+JobRepo Class (Layer)
+    ↓
+DynamoDB (MD_* tables)
+
+COMPLETEJOB Lambda
+    ↓
+JobRepo Class (Layer)
+    ↓
+MD_JOB_EXECUTION
