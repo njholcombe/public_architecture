@@ -9,6 +9,9 @@ Comment: Holds high-level job definitions, linking sources, targets, and dataset
 MD_JOBS_DET
 Comment: Stores detailed runtime parameters for each job (e.g., S3 bucket names, tokens, expected headers).
 
+ND_JOBS_RELATIONSHIPS
+Comment: Defines upstream-to-downstream job relationships used to orchestrate event-driven and metadata-driven pipeline execution.
+
 MD_JOB_CONFIG
 Comment: Stores configuration and trigger details for jobs (e.g., EventBridge rule names, Step Function names, status flags).
 
