@@ -38,6 +38,7 @@ Comment: Key-value details for each target (e.g., S3 bucket paths, formats, perm
 
 This document defines the metadata control-plane tables that govern the data model generation in the data lake.
 
+---
 MD_MODEL_SUBJECT	
 Comment: Stores subject area definitions and source locations used by the Data Model Factory to discover and generate data models.
 
