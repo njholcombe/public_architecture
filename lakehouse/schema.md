@@ -1,4 +1,4 @@
-# Data Lake Job Execution Metadata Schema
+# Data Lake Job Metadata Schema
 
 This document defines the metadata control-plane tables that govern jobs, datasets, sources, and targets in the data lake.
 
