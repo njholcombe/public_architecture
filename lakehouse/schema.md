@@ -1,4 +1,4 @@
-# Data Lake Job Metadata Schema
+# Data Lake Job Metadata Framework
 
 This document defines the metadata control-plane tables that govern jobs, datasets, sources, and targets in the data lake.
 
@@ -34,7 +34,7 @@ MD_TGT_DET
 Comment: Key-value details for each target (e.g., S3 bucket paths, formats, permissions).
 
 ---
-# Data Lake Data Model Metadata Schema
+# Data Lake Logical Data Model Framework
 
 This document defines the metadata control-plane tables that govern the data model generation in the data lake.
 
@@ -47,6 +47,9 @@ Comment: Stores metadata objects (worksheets, files, tables, or other assets) di
 
 MD_MODEL_COLUMN	
 Comment: Stores source column metadata and mapping attributes used to generate dimension, fact, and staging table structures.
+
+MD_MODEL_Mapping	
+Comment: Stores mappings between source data elements and logical model objects and columns.
 
 MD_MODEL_RUN	
 Comment: Stores execution history and processing status for Data Model Factory discovery and model generation runs.
