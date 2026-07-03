@@ -61,11 +61,11 @@ This document defines the metadata control-plane tables that govern the physical
 
 ---
 MD_TABLE_DEF
-Comment: Stores the physical table definitions required to generate and manage Athena tables.
+Comment: Defines the physical table definitions required to generate and manage Athena tables.
 
 MD_TABLE_COLUMN_DEF
-Comment: Stores the physical column definitions associated with each metadata table.
+Comment: Defines the physical column definitions associated with each metadata table.
 
 MD_TABLE_PARTITION_DEF
-Comment: Stores the partition definitions used to generate and manage table partitioning.
+Comment: Defines the partition definitions used to generate and manage table partitioning.
 
