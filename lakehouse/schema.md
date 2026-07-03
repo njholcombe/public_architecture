@@ -36,20 +36,36 @@ Comment: Key-value details for each target (e.g., S3 bucket paths, formats, perm
 ---
 # Data Lake Logical Data Model Framework
 
-This document defines the metadata control-plane tables that govern the data model generation in the data lake.
+This document defines the metadata control-plane tables that govern the logical data model generation in the data lake.
 
 ---
-MD_MODEL_SUBJECT	
+MD_MODEL_SUBJECT
 Comment: Stores subject area definitions and source locations used by the Data Model Factory to discover and generate data models.
 
-MD_MODEL_OBJECT	
+MD_MODEL_OBJECT
 Comment: Stores metadata objects (worksheets, files, tables, or other assets) discovered within a subject area and targeted for model generation.
 
-MD_MODEL_COLUMN	
+MD_MODEL_COLUMN
 Comment: Stores source column metadata and mapping attributes used to generate dimension, fact, and staging table structures.
 
-MD_MODEL_Mapping	
+MD_MODEL_MAPPING
 Comment: Stores mappings between source data elements and logical model objects and columns.
 
-MD_MODEL_RUN	
+MD_MODEL_RUN
 Comment: Stores execution history and processing status for Data Model Factory discovery and model generation runs.
+
+---
+# Data Lake Physical Data Model Framework
+
+This document defines the metadata control-plane tables that govern the physical data model generation in the data lake.
+
+---
+MD_TABLE_DEF
+Comment: Stores the physical table definitions required to generate and manage Athena tables.
+
+MD_TABLE_COLUMN_DEF
+Comment: Stores the physical column definitions associated with each metadata table.
+
+MD_TABLE_PARTITION_DEF
+Comment: Stores the partition definitions used to generate and manage table partitioning.
+
