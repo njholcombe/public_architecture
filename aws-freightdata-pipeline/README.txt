@@ -5,7 +5,7 @@ The project demonstrates the development of a data pipeline from initial source 
 Technology Stack
 	Technology		Responsibility
 	Python			Metadata discovery, generation and deployment automation
-	Amazon 			DynamoDB Metadata management and runtime configuration
+	Amazon DynamoDB 	Metadata management and runtime configuration
 	Amazon S3		Bronze and Silver data storage
 	Amazon Athena		External tables, SQL transformations and analytics
 	AWS Step Functions	Job execution orchestration
