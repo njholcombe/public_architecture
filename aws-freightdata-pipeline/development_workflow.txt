@@ -1,0 +1,64 @@
+Metadata-Driven Development Workflow
+
+01
+
+Data Model Discovery
+
+model_discovery.py
+Output: Logical model metadata — MD_MODEL_*
+
+
+02
+
+Physical Model Generation
+
+physical_model_generator.py
+Output: Physical object metadata — MD_TABLE_*_DEF
+
+
+03
+
+Physical Object Generation and Deployment
+
+Platform-specific generator and deployment utilities
+Output: Physical objects for Athena, Redshift, or other supported platforms
+
+
+04
+
+Job Definition Discovery
+
+job_definition_discovery.py
+Output: Job definition metadata — MD_JOB_*_DEF
+
+
+05
+
+Job Definition Validation
+
+job_definition_validator.py
+Output: Validated job definitions
+
+
+06
+
+Job Orchestration Generation
+
+job_orchestration_generator.py
+Output: Execution-ready orchestration artifacts
+
+
+07
+
+Runtime Metadata and Job Registration
+
+Runtime metadata loader / job_registration
+Output: Runtime metadata and registered jobs
+
+
+08
+
+Execution Readiness
+
+Deployment and validation
+Output: Registered, executable jobs
